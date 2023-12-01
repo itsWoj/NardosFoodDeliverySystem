@@ -57,7 +57,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `customer_id`, `address`, `description`, `date`, `payment_type`, `total`, `status`, `deleted`) VALUES
-(1, 2, 'Address 2', 'Sample Description 1', '2023-03-28 17:32:41', 'Cash On Delivery', 150, 'Yet to be delivered', 0),
+(1, 2, 'Address 2', 'Sample Description 1', '2023-03-28 17:32:41', 'Cash On Delivery', 150, 'Yet to be delivered', 0);
 
 
 -- --------------------------------------------------------
@@ -79,7 +79,7 @@ CREATE TABLE `order_details` (
 --
 
 INSERT INTO `order_details` (`id`, `order_id`, `item_id`, `quantity`, `price`) VALUES
-(1, 1, 2, 2, 90),
+(1, 1, 2, 2, 90);
 
 -- --------------------------------------------------------
 
@@ -154,7 +154,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `role`, `name`, `username`, `password`, `email`, `address`, `contact`, `verified`, `deleted`) VALUES
 (1, 'Administrator', 'Owner', 'Nardo', 'nardo123', '', 'Address 1', 9898000000, 1, 0),
-(2, 'Customer', 'Adrian Green', 'adriang', 'adrian', 'mail2@example.com', 'Address 2', 9898000001, 1, 0),
+(2, 'Customer', 'Adrian Green', 'adriang', 'adrian', 'mail2@example.com', 'Address 2', 9898000001, 1, 0);
 
 
 -- --------------------------------------------------------
